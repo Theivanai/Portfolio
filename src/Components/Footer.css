@@ -1,0 +1,21 @@
+.footer {
+    background: aliceblue;
+    color: #000;
+    padding: 2rem;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.footer-icons {
+    margin-top: 0.5rem;
+}
+
+.footer-link {
+    color: #000;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+    color: #0077b5
+}

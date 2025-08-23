@@ -1,0 +1,78 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Heading */
+.home-heading {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 1rem;
+    color: #222;
+}
+
+.home-heading span {
+    color: #1976d2;
+}
+
+/* Subheading */
+.home-subheading {
+    font-size: 1.4rem;
+    color: #444;
+    margin-bottom: 2rem;
+
+}
+
+/* Resume Button */
+.resume {
+    padding: 0.8rem 1.8rem;
+    background: #1976d2;
+    color: #fff;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0px 4px 12px rgba(25, 118, 210, 0.3);
+    transition: all 0.3s ease;
+}
+
+.resume:hover {
+    background: #1565c0;
+}
+
+/* Social Icons */
+.social-container {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.social-icons {
+    transition: transform 0.2s ease;
+}
+
+.social-icons:hover {
+    transform: scale(1.2);
+}
+
+.social-icons.mail {
+    color: #d93025;
+}
+
+.social-icons.github {
+    color: #000;
+}
+
+.social-icons.linkedin {
+    color: #0e76a8;
+}
+
+/* media query for 320px */
+@media(max-width:320px) {}
