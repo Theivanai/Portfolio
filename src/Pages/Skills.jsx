@@ -22,7 +22,7 @@ function Skills() {
     ];
 
     const renderSkills = (title, skills) => (
-        <div className="skills-block mt-5">
+        <div className="skills-block">
             <h4 className="skills-subtitle">{title}</h4>
             <div className="skills-grid">
                 {skills.map((skill, index) => (
